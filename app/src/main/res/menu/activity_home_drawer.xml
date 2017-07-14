@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="SHOP FOR">
+    <menu>
+        <item
+            android:id="@+id/nav_bags"
+            android:icon="@drawable/icon_bags"
+            android:title="Bags and Shoes" />
+        <item
+            android:id="@+id/nav_cell"
+            android:icon="@drawable/icon_cellphones"
+            android:title="Cell Phones and Accessories" />
+        <item
+            android:id="@+id/nav_computer"
+            android:icon="@drawable/icon_computers"
+            android:title="Computer and Networking" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@drawable/icon_electronics"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_mobile"
+            android:icon="@drawable/icon_mobile"
+            android:title="Mobile Phones" />
+        <item
+            android:id="@+id/nav_tablet"
+            android:icon="@drawable/icon_tablet"
+            android:title="Tablet PC" />
+        <item
+            android:id="@+id/nav_toy"
+            android:icon="@drawable/icon_toys"
+            android:title="Toys and Hobbies" />
+    </menu>
+    </item>
+
+    <item android:title="OTHER OPTIONS">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/icon_account_black"
+                android:title="My Account" />
+            <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/icon_wishlist"
+                android:title="My Wishlist" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/icon_contact"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+</menu>

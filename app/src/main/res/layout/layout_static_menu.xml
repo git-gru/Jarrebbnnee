@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/productTitle"/>
+
+    <TextView
+        android:id="@+id/tv_menu_name2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="7dp"
+        android:text="OTHER OPTIONS"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_my_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:src="@drawable/icon_account_black"/>
+        <TextView
+            android:id="@+id/tvll1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="My account"
+            android:textColor="@color/productTitle"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_my_wishlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:src="@drawable/icon_wishlist"/>
+        <TextView
+            android:id="@+id/tvll2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="My wishlist"
+            android:textColor="@color/productTitle"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:src="@drawable/icon_contact"/>
+        <TextView
+            android:id="@+id/tvll3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center_vertical"
+            android:text="Contact us"
+            android:textColor="@color/productTitle"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

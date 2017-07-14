@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lll11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainHeading"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/layout_sort"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="7dp"
+                android:background="#d3d3d3"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_sort"/>
+                <TextView
+                    android:id="@+id/ttvv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/Sort"
+                    android:textSize="14sp"
+                    android:textColor="@color/mainHeading"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/layout_filter"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:background="#d3d3d3"
+                android:padding="7dp"
+                android:layout_weight="0.5">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_filter"/>
+                <TextView
+                    android:id="@+id/ttvvv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/Filter"
+                    android:textSize="14sp"
+                    android:textColor="@color/mainHeading"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/gripProduct"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="7dp"
+        android:verticalSpacing="7dp">
+    </in.srain.cube.views.GridViewWithHeaderAndFooter>
+</LinearLayout>

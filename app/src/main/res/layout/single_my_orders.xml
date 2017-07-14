@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="7dp"
+        android:layout_gravity="center"
+        android:elevation="5dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_wishlist_order_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Order Number :"
+                android:textSize="12sp"
+                android:textColor="@color/bottomMenuInactive"
+
+                />
+            <TextView
+                android:id="@+id/tv_wishlist_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Placed on "
+                android:textSize="12sp"
+                android:textColor="@color/productTitle"
+                />
+            <TextView
+                android:id="@+id/tv_wishlist_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="$1936.2 / 1 item"
+                android:textSize="12sp"
+                android:textColor="@color/productTitle" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="7dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.3"
+                android:background="@drawable/full_border">
+            <ImageView
+                android:id="@+id/iv_wishlist"
+                android:layout_width="0dp"
+                android:layout_height="110dp"
+                android:layout_weight="0.3"
+                android:padding="2dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/demo"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_wishlist_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/bottomMenuInactive"
+                    android:layout_weight="0.7"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_wishlist_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:paddingTop="2dp"
+                    android:text="@string/ViewDetails"
+                    android:textSize="14sp"
+                    android:gravity="bottom"
+                    android:textColor="@color/bottomMenuActive"
+                    android:layout_weight="0.3"
+                    android:layout_marginBottom="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1001373083197",
+    "firebase_url": "https://jarrebbnnee.firebaseio.com",
+    "project_id": "jarrebbnnee",
+    "storage_bucket": "jarrebbnnee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001373083197:android:1c760588f3bae17a",
+        "android_client_info": {
+          "package_name": "com.jarrebbnnee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001373083197-k9m2fl2va269kfegr7p0n8qd6nm3c1f1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jarrebbnnee",
+            "certificate_hash": "7ea8432f7f556d010823bda6d81ee174217a83e3"
+          }
+        },
+        {
+          "client_id": "1001373083197-6p3phr4tg29527imm4pmn8ap9ae9re6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5Ei-ab_xnhbED8XbnaCWei9GGRiR953A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001373083197-6p3phr4tg29527imm4pmn8ap9ae9re6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

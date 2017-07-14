@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="7dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="5dp"
+                android:shape="rectangle">
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="@string/Billing"
+                android:textColor="@color/mainHeading"
+                android:textSize="14sp" />
+</android.support.v7.widget.CardView>
+            <TextView
+                android:id="@+id/text_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/fname"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+            <TextView
+                android:id="@+id/text_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/lname"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/email"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+
+            <TextView
+                android:id="@+id/text_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/mobile"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+
+            <TextView
+                android:id="@+id/text_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Country"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+
+            <EditText
+                android:id="@+id/et_State"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/transparent"
+                android:hint="@string/StateProvince"
+                android:textColorHint="@color/productTitle"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+            <EditText
+                android:id="@+id/et_city"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/transparent"
+                android:hint="@string/City"
+                android:textColorHint="@color/productTitle"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+            <EditText
+                android:id="@+id/et_pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/transparent"
+                android:hint="@string/Zip"
+                android:textColorHint="@color/productTitle"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+            <EditText
+                android:id="@+id/et_address1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/transparent"
+                android:hint="@string/Address1"
+                android:textColorHint="@color/productTitle"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+            <EditText
+                android:id="@+id/et_address2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/transparent"
+                android:hint="@string/Address2"
+                android:textColorHint="@color/productTitle"
+                android:textColor="@color/productTitle"
+                android:textSize="12sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:background="@color/productTitle"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="7dp"
+                android:layout_marginTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/tt2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:text="@string/ShipT"
+                    android:textColor="@color/productTitle"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="7dp">
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"/>
+                <TextView
+                    android:id="@+id/tt3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.9"
+                    android:text="@string/ShipO"
+                    android:textColor="@color/productTitle"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_payment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="40dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/payment"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

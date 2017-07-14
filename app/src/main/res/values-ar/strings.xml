@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">جاريبني</string>
+    <string name="signup"><u>سجل اليوم</u></string>
+    <string name="title_activity_home">هوماكتيفيتي</string>
+    <string name="facebook_app_id">340289089699707</string>
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+    <string name="fb_login_protocol_scheme">fb340289089699707</string>
+    <string name="fbParamEmail">email</string>
+    <string name="bags">Bags &amp; Shoes</string>
+    <string name="ViewDetails"><u>انظر التفاصيل</u></string>
+    <string name="action_settings">اعدادات</string>
+    <string name="cart">العربه</string>
+    <string name="home">الرئيسيه</string>
+    <string name="categories">فئات</string>
+    <string name="account">حساب</string>
+    <string name="search">بحث</string>
+    <string name="loginRegister">تسجيل دخول</string>
+
+    <string name="shopF">تسوق من اجل</string>
+    <string name="priceD">السعر</string>
+    <string name="subtotal">المجموع</string>
+    <string name="Tax">الضريبه</string>
+    <string name="Total">المجموع الكلي</string>
+    <string name="CHECKOUT">الخروج</string>
+    <string name="continueS">متابعة التسوق</string>
+    <string name="fname">الأسم الأول</string>
+    <string name="lname">الأسم الأخير</string>
+    <string name="email">العنوان البريدي</string>
+    <string name="mobile">رقم الأتصال</string>
+    <string name="Address">العنوان</string>
+    <string name="Security">الرمز الامني</string>
+    <string name="Cant">غير قادر على قرأة الكود الامني</string>
+    <string name="Refresh">اعادة التصفح</string>
+    <string name="latestP">المنتجات الاخيره</string>
+    <string name="Accept">قبول</string>
+    <string name="terms">شروط الاستخدام</string>
+    <string name="signUp">تسجيل</string>
+    <string name="latestC">اخر الاعلانات</string>
+    <string name="VIEW">تطلع الى كامل المحتوى</string>
+    <string name="Sort">تنسيق</string>
+    <string name="Filter">ترشيح</string>
+    <string name="Billing">بيانات الفوتره</string>
+    <string name="Country">البلد</string>
+    <string name="StateProvince">منطقه</string>
+    <string name="City">مدينه</string>
+    <string name="Zip">الرمز البريدي</string>
+    <string name="Address1">العنوان 1</string>
+    <string name="Address2">العنوان 2</string>
+    <string name="ShipT">اشحن الى هذا العنوان</string>
+    <string name="ShipO">اشحن الى عنوان اخر</string>
+    <string name="payment">تابع للدفع</string>
+
+</resources>

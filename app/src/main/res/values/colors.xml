@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E51110</color>
+    <color name="colorPrimaryDark">#E51110</color>
+    <color name="colorAccent">#000000</color>
+
+
+    <color name="headerBg">#E51110</color>
+    <color name="bottomMenuInactive">#333333</color>
+    <color name="bottomMenuActive">#E51110</color>
+    <color name="mainHeading">#333333</color>
+    <color name="text">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="productTitle">#777777</color>
+    <color name="white">#ffffff</color>
+</resources>
